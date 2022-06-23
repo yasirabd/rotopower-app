@@ -11,7 +11,7 @@ Logo.propTypes = {
   sx: PropTypes.object,
 };
 
-export default function Logo({ disabledLink = false, sx}) {
+export default function Logo({ disabledLink = false, sx }) {
   const theme = useTheme();
 
   const PRIMARY_LIGHT = theme.palette.primary.light;
